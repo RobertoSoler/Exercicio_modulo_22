@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* .bg-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+} */
+
+.hero {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(60%);
+}
+
+h1 {
+  color: lightblue;
+  font-family: Mystery Quest;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10vh;
+  text-shadow: 4px 4px 4px black;
+}
+
+h2 { 
+  text-align: center;
+  font-weight: bold;
+  font-family: Nabla;
+  font-size: 3rem;
+  text-shadow: 4px 4px 4px black;
+ }
+
+#image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  animation-name: desliza;
+  animation-duration: 4s;  
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes desliza {
+  from {top: 100vh;}
+  to {top: 0vh;}
+}
+
+li {
+  font-family: Mystery Quest;
+  font-size: 4rem;
+  text-shadow: 4px 4px 4px chartreuse;
+  list-style-type: none;
+  color: darkblue;
+}
+
+.confirma {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+}
+
+p {
+  font-family: Rammetto One;
+  font-size: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  color: darkblue;
+  text-shadow: 4px 4px 4px chartreuse;
+  text-decoration: underline;
+}
+
+p:hover {
+  font-size: 3rem;
+  text-decoration: none;
+}
