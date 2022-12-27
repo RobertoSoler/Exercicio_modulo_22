@@ -2,13 +2,6 @@
     margin: 0;
     padding: 0;
   }
-  
-/* .bg-video {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-} */
 
 .hero {
   width: 80%;
@@ -35,7 +28,7 @@ h1 {
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
-  margin-top: 10vh;
+  margin-top: 6vh;
   text-shadow: 4px 4px 4px black;
 }
 
@@ -99,4 +92,45 @@ p {
 p:hover {
   font-size: 3rem;
   text-decoration: none;
+}
+
+.aviso {
+  text-decoration: none;
+  font-family: Purple Purse;
+  cursor: auto;
+}
+
+.aviso:hover {
+  color: chartreuse;
+  text-shadow: 4px 4px 4px blue;
+}
+
+@media (max-width: 640px) {
+
+  .hero {
+    width: 90%;
+  }
+
+  #background-video {
+    width: auto;
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1vh;
+  }
+
+  h2 { 
+    font-size: 2rem;
+   }
+
+  li {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+
 }
